@@ -1,0 +1,98 @@
+			body{
+				background-color: lightgray;
+				
+			}
+
+			label{
+				 margin-left: 11%;
+			}
+			.center{
+				height: 300px;
+				width: 400px;
+				position: fixed;
+				background-color: white;
+				left: 50%;
+				top: 50%;
+				transform: translate(-50%, -50%);
+				border: 1px solid;
+			}
+			#vast{
+				position: fixed;
+				border: 1px solid;
+				font-size: 30px;
+				left: 50%;
+				transform: translateX(-50%);
+				text-align: center;
+			}
+			#loginTitle{
+				position: fixed;
+				text-decoration: underline;
+				font-size: 20px;
+				left: 50%;
+				transform: translateX(-50%);
+				text-align: center;
+			}
+			#email{
+				position: fixed;
+				left: 30%;
+			
+				font-size: 16px;
+			}
+			#password{
+				position: fixed;
+				left: 30%;
+				font-size: 16px;
+			}
+			#emailInput{
+				margin-left: 25%;
+				width: 70%;
+				display: inline-block;
+			}
+			#passwordInput{
+				margin-left: 25%;
+				width: 70%;
+				display: inline-block;
+			}
+			#login{
+				width: 33%;
+				height: 35px;
+  				background-color:lightgray;
+  				color: white;
+  				font-size: 16px;
+  				margin-left: 50%;
+  				transform: translateX(-50%);
+  				border: none;
+  				border-radius: 4px;
+  				cursor: pointer;
+			}
+			#create{
+				margin-left: 38%;
+				transform: translateX(-50%);
+			}
+			.sidenav {
+                                height: 100%;
+                                width: 160px;
+                                position: fixed;
+                                top: 0;
+                                left: 0;
+                                background-color: #8e81ff;
+				/*background-image: url('/cssFiles/PurpleMoonlight.jpg');
+				background-repeat: no-repeat;*/
+				background-size: cover;
+                                overflow-x: hidden;
+                                padding-top: 20px;
+                        }
+
+                        .sidenav a {
+                          padding: 6px 8px 6px 16px;
+                          text-decoration: underline;
+                          font-size: 17px;
+                          color: blue;
+                          display: block;
+                        }
+
+                        .sidenav a:hover {
+                          color: white;
+                        }
+
+
